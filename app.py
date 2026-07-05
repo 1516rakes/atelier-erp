@@ -21,7 +21,7 @@ st.markdown("""
     .stButton>button { width: 100%; border-radius: 6px; font-weight: bold; background-color: #2563eb; color: white; }
     div[data-testid="stMetricValue"] { color: #059669; }
     </style>
-    """, unsafe_allow_index=True)
+    """, unsafe_allow_html=True)
 
 DB_NAME = "atelier_master.db"
 BACKUP_DIR = "backups"
